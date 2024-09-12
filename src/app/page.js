@@ -73,7 +73,7 @@ export default function Portfolio() {
             transition={{duration: 0.5}}
             className="text-2xl font-bold"
           >
-            Rifat Salman Abir
+            Abir
           </motion.h1>
           <motion.div
             initial={{opacity: 0, y: -20}}
@@ -132,7 +132,7 @@ export default function Portfolio() {
               </p>
               <a
                 href="#contact"
-                className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300"
+                className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2  px-4 rounded transition duration-300 "
               >
                 Get in Touch
               </a>
@@ -141,7 +141,7 @@ export default function Portfolio() {
               initial={{opacity: 0, x: 50}}
               animate={{opacity: 1, x: 0}}
               transition={{duration: 0.5, delay: 0.2}}
-              className="md:w-1/2 flex justify-center md:justify-end"
+              className="md:w-1/2 flex justify-center md:justify-end max-sm:-mt-20"
             >
               <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-blue-500 shadow-lg max-sm:order-1 max-sm:mb-12">
                 <Image
